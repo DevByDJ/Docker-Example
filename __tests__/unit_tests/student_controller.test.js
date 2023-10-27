@@ -1,4 +1,9 @@
-const { createStudent, getStudents, validateStudent, getSingleStudent } = require('../../tables/student/controller');
+const {
+  createStudent, 
+  getStudents, 
+  validateStudent, 
+  getSingleStudent } = require('../../tables/student/controller');
+
 const db = require('../../database');
 
 jest.mock('../../database');
